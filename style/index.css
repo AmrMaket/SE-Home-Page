@@ -74,3 +74,35 @@ section.top-page{
     text-decoration: none;
     line-height: 1.5;
 }
+.Hello{
+    color: black;
+    text-align: left;
+    line-height: 1.4;
+    font: 24px "Noto Sans Mono", sans-serif;
+}
+.top{
+    display: flex;
+    align-items: center;
+}
+.section2{
+    max-width: 1340px;
+    flex-direction: column;
+    padding-left: 70px;
+    padding-right: 70px;
+    display: flex;
+    padding-top: 70px;
+}
+.circles{
+    display: flex;
+    margin-left: auto;
+}
+.body-section2{
+    background-color: rgba(40, 238, 167, 0.93);
+    height: 700px;
+    width: auto;
+}
+.black-window{
+    background-color: black;
+    height:650px;
+    margin:25px 25px;
+}
