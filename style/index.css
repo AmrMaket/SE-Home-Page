@@ -380,6 +380,43 @@ section.top-page{
     background-color: rgba(34, 34, 34, .4);
     margin-left: 10px;
 }
-.section7-body{
-    
+.section7{
+    background-color: #363738;
+}
+.section7-top{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-right: 300px;
+    margin-left: 300px;
+}
+.green{
+    color: #28eea7;
+}
+.section7-top span{
+    font: 24px "Noto Sans Mono", sans-serif;
+}
+.white-circle{
+    height: 24px;
+    width: 24px;
+    background-color: white;
+    border-radius: 50%;
+    margin-right:7px;
+}
+.grey-circle{
+    height: 24px;
+    width: 24px;
+    background-color: #a5a6a9;
+    border-radius: 50%;
+    margin-right:7px;
+}
+.green-circle{
+    height: 24px;
+    width: 24px;
+    background-color: #28eea7;
+    border-radius: 50%;
+    margin-right:7px;
+}
+.colored-circles{
+    display: flex;
 }
