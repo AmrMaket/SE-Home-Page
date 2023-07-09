@@ -74,6 +74,7 @@ section.top-page{
     text-decoration: none;
     line-height: 1.5;
 }
+
 .margin{
     padding-right: 15px;
 }
@@ -177,6 +178,7 @@ section.top-page{
 }
 .first-part{
     display: flex;
+    align-items: flex-end;
 }
 .section-top{
     display: flex;
