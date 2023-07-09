@@ -264,14 +264,14 @@ section.top-page{
     color: white;
 }
 .section5-body{
-    height: 240px;
+    height: 450px;
     width: 1000px;
     padding-top: 50px;
     margin-left: 200px;
     padding-left: 50px;;
     margin-top: 50px;
     border-radius: 50px;
-    background-color: black;
+    background-color: #232323;
     display: flex;
     align-items: flex-start;
     flex-direction: column;
@@ -282,4 +282,38 @@ section.top-page{
     font: 22px "Noto Sans Mono", sans-serif;
     text-align: left;
     line-height: 1.4;
+}
+.section5-body .another-color {
+    height: 50px;
+    width:auto;
+    background-color: #363738;
+    padding-top: 15px;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+.contact{
+    background-color: #363738;
+    height:30px;
+    width: 900px;
+    padding-top: 20px;
+    display: flex;
+    justify-content: flex-end;
+}
+.HR{
+    display: flex;
+    justify-content: end;
+    height: 100px;
+    width: auto;
+    background-color: #232323;
+    color: white;
+    align-items: center;
+    margin-right: 90px;
+    margin-left: 200px;
+    border-radius: 25px;
+}
+.HR img{
+    height: 60px;
+    width: 150px;
+    border-radius: 10%;
+    margin-left: 5px;
 }
