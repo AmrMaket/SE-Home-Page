@@ -404,7 +404,7 @@ section.top-page{
     border-radius: 50%;
     margin-right:7px;
 }
-.black-circle{
+.black-circle-i{
     height: 24px;
     width: 24px;
     background-color: #363738;
@@ -478,4 +478,19 @@ section.top-page{
     margin-top: 30px;
     align-items: center;
     justify-content: space-between;
+}
+.section8{
+    background-color: #28eea7;
+
+}
+.section8-top-1half{
+    display: flex;
+    background-color: #232323;
+}
+.section8-top{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
