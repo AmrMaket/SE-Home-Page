@@ -245,3 +245,41 @@ section.top-page{
     justify-content: space-between; 
     margin-top: 20px;  
 }
+.section5{
+    background-color: #363738;
+}
+.section5-top{
+    display: flex;
+}
+.Hire-talent span{
+    color: white;
+}
+.greater span{
+    color: rgba(40, 238, 167, 0.93);
+}
+.section5-body span {
+    color : white;
+}
+.section5-body ol li{
+    color: white;
+}
+.section5-body{
+    height: 240px;
+    width: 1000px;
+    padding-top: 50px;
+    margin-left: 200px;
+    padding-left: 50px;;
+    margin-top: 50px;
+    border-radius: 50px;
+    background-color: black;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: flex-start;
+    grid-row-gap:24px;
+}
+.section5-body .Partner{
+    font: 22px "Noto Sans Mono", sans-serif;
+    text-align: left;
+    line-height: 1.4;
+}
