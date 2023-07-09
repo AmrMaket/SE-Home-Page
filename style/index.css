@@ -404,6 +404,13 @@ section.top-page{
     border-radius: 50%;
     margin-right:7px;
 }
+.black-circle{
+    height: 24px;
+    width: 24px;
+    background-color: #363738;
+    border-radius: 50%;
+    margin-right:7px;
+}
 .grey-circle{
     height: 24px;
     width: 24px;
