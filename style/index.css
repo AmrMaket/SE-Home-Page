@@ -486,13 +486,17 @@ section.top-page{
 .section8-top-1half{
     display: flex;
     background-color: #232323;
+    height: 50px;
+    width: 100px;
+    text-align: center;
 }
 .section8-top{
     display: flex;
     justify-content: space-between;
     padding-top: 30px;
     padding-left: 30px;
-    padding-right: 30px;}
+    padding-right: 30px;
+}
 .map-rectangle{
     border-radius: 25px;
     display: flex;
@@ -507,8 +511,82 @@ section.top-page{
 .map-rectangle-top{
     padding-top: 20px;
 }
-.map-rectangle-feed{
-}
 .map{
     border-radius: 25px;
+}
+.section8-body{
+    justify-content: space-between;
+    display: flex;
+    width:1200px;
+    margin-top: 30px;
+    margin-left: 60px;
+}
+.form-rectangle{
+    border-radius: 20px;
+    margin-top: 30px;
+    width: 800px;
+    height: 550px;
+    background-color:#363738;
+}
+.last-name , .email , .phone-no , .first-name{
+    display: flex;
+    flex-direction: column;
+    width: 360px;
+}
+.full-name, .em-nu{
+    padding-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.input-info{
+    height: 53px;
+}
+.checkbox{
+    border-radius: 999px;
+}
+.help{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.options{
+    padding-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 120px;
+}
+.for-help{
+    width:auto;
+    height: 100px;
+}
+.for-help-option{
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.form-top{
+    padding-top: 20px;
+    padding-left: 30px;
+}
+.gmail{
+    padding-top: 20px;
+    padding-left: 30px;
+    font: 36px;
+}
+.submit{
+    display: flex;
+    background-color: #28eea7;
+    height: 40px;
+    width: 80px;
+    text-transform: uppercase;
+}
+.submit-button{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 15px;
+    margin-top: 10px;
 }
