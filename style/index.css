@@ -386,9 +386,10 @@ section.top-page{
 .section7-top{
     display: flex;
     justify-content: space-between;
-    margin-top: 30px;
-    margin-right: 300px;
-    margin-left: 300px;
+    margin:50px 100px;
+    margin-right: 50px;
+    margin-left: 50px;
+    padding-top: 50px;
 }
 .green{
     color: #28eea7;
@@ -419,4 +420,55 @@ section.top-page{
 }
 .colored-circles{
     display: flex;
+}
+.f-texts{
+    color: white;
+}
+.first-div-t{
+    border-radius: 20px;
+    display: flex;
+    width:1200px;
+    height: 70px;
+    background-color: #232323;
+    align-items: center;
+    padding-left: 10px;
+    margin-top: 30px;
+}
+.second-div-t{
+    border-radius: 20px;
+    display: flex;
+    width:1200px;
+    height: 70px;
+    background-color: #232323;
+    align-items: center;
+    padding-left: 10px;
+    margin-top: 30px;
+}
+.third-div-t{
+    border-radius: 20px;
+    display: flex;
+    width:1200px;
+    height: 70px;
+    background-color: #232323;
+    align-items: center;
+    padding-left: 10px;
+    margin-top: 30px;
+}
+.forth-div-t{
+    display: flex;
+    width:1200px;
+    height: 70px;
+    background-color: hsl(0, 0%, 14%);
+    align-items: center;
+    justify-content: end;
+    padding-right: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.section7-body{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    align-items: center;
+    justify-content: space-between;
 }
